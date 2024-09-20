@@ -10,7 +10,7 @@ public class file_reading {
         boolean b = !(Objects.equals(input.nextLine(), "end"));
         StringBuilder text= new StringBuilder();
         while(b) {
-            if (!(Objects.equals(input.nextLine(), "end"))) b = true;
+            if (!(Objects.equals(input.nextLine(), "end "))) b = true;
             else b = false;
             text.append(input.next());
         }
