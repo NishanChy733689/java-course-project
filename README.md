@@ -1,4 +1,4 @@
-# Java projects of Codingal course
+# Java projects of Nishan's Codingal course
 
 
 ## Overview
