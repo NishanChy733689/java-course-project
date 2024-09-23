@@ -3,7 +3,7 @@
 
 ## Overview
 
-Welcome to my Java programming class project! This repository contains code and exercises that I've completed as part of my coursework on Codingal.com. The goal of this project is to demonstrate my understanding of Java programming concepts and principles.
+Welcome to my Java programming class project! This repository contains code and exercises I've completed as part of my coursework on Codingal.com. This project aims to demonstrate my understanding of Java programming concepts and principles.
 
 ## Table of Contents
 
@@ -36,3 +36,7 @@ To get started with this project, follow these steps:
 1. **Clone the repository**:
    ```bash
    https://github.com/NishanChy733689/java-course-project.git
+2. **Open a terminal**
+3. **Write :**
+   ```bash
+   `git clone https://github.com/NishanChy733689/java-course-project.git`
