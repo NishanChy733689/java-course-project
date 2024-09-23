@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Objects;
 import java.util.Scanner;
-public class file_reading {
+public class file_reading{
     public static void main(String[] args) throws IOException {
         BufferedWriter bw=new BufferedWriter(
                 new FileWriter("C:\\Users\\Admin\\Desktop\\java course\\Aditional learning\\new.txt")
