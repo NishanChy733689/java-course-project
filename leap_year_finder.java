@@ -5,7 +5,7 @@ public class leap_year_finder {
         System.out.println("Enter the year");
         int year=input.nextInt();
         boolean leapyear=(year%4==0)?((year%100==0)?((year%400==0)?true:false):true):false;
-        System.out.println("the year "+year+" is "+((leapyear==true)?"a leapyear":"not a leapear"));
-        System.out.println();
+        System.out.println("the year "+year+" is "+((leapyear==true)?"a leap year":"not a leap year"));
+        System.out.println("Work done");
     }
 }
