@@ -36,7 +36,7 @@ public class grading_system {
         }else if (grades == "F-"){
             return "He is the best student in the world to be A+";
         }else{
-            return "The student"+name+"got (a/an)"+grades;
+            return "The student"+name+"got (a/an) "+grades;
         }
 
     }
