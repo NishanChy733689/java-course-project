@@ -12,7 +12,7 @@ Welcome to my Java programming class project! This repository contains code and 
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+- [License](#LICENSE)
 
 ## Technologies Used
 
