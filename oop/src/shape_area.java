@@ -1,8 +1,8 @@
-class Shape{
+class Shaper{
     int height,width;
 
 }
-class Rectangle extends Shape{
+class Rectangle extends Shaper{
     public void set_dims(int width,int height){
         this.height=height;
         this.width=width;
@@ -16,7 +16,7 @@ class Rectangle extends Shape{
     }
 }
 
-class triangle extends Shape{
+class triangle extends Shaper{
     int base=super.width;
 
     public void set_dims(int height,int base){
