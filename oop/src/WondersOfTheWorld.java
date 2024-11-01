@@ -98,7 +98,7 @@ class TajMahal extends Wonder {
 }
 
 // Main class to run the program
-public class WondersOfTheWorld {
+public class WondersOfTheWorld{
     public static void main(String[] args) {
         // Create an array of Wonder objects
         Wonder[] wonders = {
