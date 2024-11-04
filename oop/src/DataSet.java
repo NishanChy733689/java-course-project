@@ -10,7 +10,7 @@ public class DataSet {
         data[dataSize] = value;
         dataSize++;
         sum += value;
-    }
+     }
     public double getAverage() {
         if (dataSize == 0) {
             return 0;
