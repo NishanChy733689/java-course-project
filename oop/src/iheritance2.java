@@ -42,6 +42,7 @@ class Truck extends Vehicle {
     public int getPayloadCapacity() {
         return payloadCapacity;
     }
+
 }
 
 /*
