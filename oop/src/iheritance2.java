@@ -17,9 +17,9 @@ abstract class Vehicle {
         return year;
     }
 }
-class Car extends Vehicle {
+class Car1 extends Vehicle {
     private int numDoors;
-    public Car(String make, String model, int year, int numDoors) {
+    public Car1(String make, String model, int year, int numDoors) {
         super(make, model, year);
         this.numDoors = numDoors;
     }
