@@ -2,11 +2,16 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class runTest {
     public static void main(String[] args) {
-        largestSumOfSubarray();
+        arrayMatrixer();
 
 
     }
+    public static void arrayMatrixer(){
+        int[] arr={2,2,2,1};
+        matrixCreator matrixer=new matrixCreator(arr);
+        matrixer.makeArray(2,2);
 
+    }
 
     public void ArrayOperationRun(){
         Scanner scn=new Scanner(System.in);
