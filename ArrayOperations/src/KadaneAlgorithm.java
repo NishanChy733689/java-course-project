@@ -1,6 +1,6 @@
 public class KadaneAlgorithm {
     private int max(int a, int b){
-        return (a>b)?a:b;
+        return Math.max(a, b);
     }
 
     //The main function to find the maximum sum of the sub-arrays of an array
