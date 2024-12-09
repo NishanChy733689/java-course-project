@@ -26,7 +26,7 @@ public class Prime_deleter {
                result.add(i);
            }
         }
-        return result5;
+        return result;
     }
 
     public static void main(String[] args) {
