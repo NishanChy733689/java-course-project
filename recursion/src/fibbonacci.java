@@ -19,7 +19,7 @@ public class fibbonacci {
         }else{
             temp=current;
             current+=pre;
-            System.out.println(current);
+            System.out.println("No  " +iter+ " of the fibonacchi series : "+current);
             pre=temp;
             iter++;
             fibbo(limit);
