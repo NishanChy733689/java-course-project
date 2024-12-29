@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class SwapElements {
+public class Swapper {
     public static void swapFirstLast(ArrayList<String> list) {
         if (list == null || list.size() < 2) {
             return; // Do nothing if list is null or has less than 2 elements

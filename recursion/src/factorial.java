@@ -7,16 +7,16 @@ public class factorial {
     public static void main(String[] args) {
         Scanner scn=new Scanner(System.in);
        i=scn.nextInt();
-        new factorial().factori();
+        new factorial().factorialize();
     }
-    public void factori(){
+    public void factorialize(){
         if(i<=0){
             return;
         }else{
             factor*=i;
             System.out.println(factor);
             i--;
-            factori();
+            factorialize();
         }
     }
 }
