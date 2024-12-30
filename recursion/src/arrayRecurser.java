@@ -45,7 +45,7 @@ public class arrayRecurser {
         System.out.println("Ok no we know the places lets go\n hunting on one of them try searching one of them");
         new arrayRecurser().indexHunter(scn.nextInt(),array,0);
         if (finds==0){
-            System.out.println("AWW! what a bad luck you couldn't hunt that down");
+            System.out.println("AWW! what  a bad luck you couldn't hunt that down");
         }
     }
 }
