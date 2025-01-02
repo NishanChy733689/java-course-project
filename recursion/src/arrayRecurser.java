@@ -46,6 +46,8 @@ public class arrayRecurser {
         new arrayRecurser().indexHunter(scn.nextInt(),array,0);
         if (finds==0){
             System.out.println("AWW! what  a bad luck you couldn't hunt that down");
+        }else {
+        System.out.println("Ok ok Now we are launching a missile so that we can \n hunt that down :}");
         }
     }
 }
