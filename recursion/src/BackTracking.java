@@ -21,11 +21,12 @@ public class BackTracking {
             for (int j = 0; j < n; j++) {
                 System.out.print(board[i][j] + "  ");
             }
+
             System.out.println();
         }
     }
 
-    public static boolean solveNQueen(int[][] board, int col) {
+    public static boolean solveNQueen(int[][] board, int col)  {
         if (col >= n) {
             return true;
         }
@@ -41,11 +42,12 @@ public class BackTracking {
                 board[i][col] = 0;
                 ld[i - col + n - 1] = rd[i + col] = cl[i] = 0;
             }
+
         }
         return false;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Scanner scanner = new Scanner(System.in);
 
         // Prompt the user to input the size of the board
@@ -72,6 +74,7 @@ public class BackTracking {
         } else {
             System.out.println("No solution exists for the given board size.");
         }
+
 
         scanner.close();
     }
