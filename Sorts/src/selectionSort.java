@@ -17,7 +17,7 @@ public class selectionSort {
             array[minimum_index]=array[i];
             array[i]=temp;
         }
-        return array;
+        return array ;
     }
 
     public static void main(String[] args) {
