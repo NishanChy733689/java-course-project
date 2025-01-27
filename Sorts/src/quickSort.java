@@ -19,7 +19,7 @@ public class quickSort {
             }
         }
         swap(arr,i+1,high);
-        return piv;
+        return i+1;
     }
     public static void sort(int[] arr,int low,int high){
         if (high>low){
