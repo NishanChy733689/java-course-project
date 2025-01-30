@@ -10,11 +10,11 @@ public class mergeSort {
         int[] LeftHalf=new int[n1];
         int[] RightHalf=new int[n2];
 
-        for (int i=0;i<n1;i++){
-            LeftHalf[i]=arr[l+i];
+        for (int index_i=0;index_i<n1;index_i++){
+            LeftHalf[index_i]=arr[l+index_i];
         }
-        for (int j=0;j<n2;j++){
-            RightHalf[j]=arr[j+m+1];
+        for (int index_j=0;index_j<n2;index_j++){
+            RightHalf[index_j]=arr[index_j+m+1];
         }
 
         int i=0,j=0;
