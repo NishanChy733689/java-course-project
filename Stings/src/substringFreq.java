@@ -36,8 +36,30 @@ public class substringFreq{
         return res;
     }
 
+    public static int lexcicographicalChecker(String a,String b){
+        if (a.length()>b.length()){
+            String  temp=a;
+            a=b;
+            b=temp;
+        }
+        for(int i=0;i<a.length();i++){
+            if (a.charAt(i)!=b.charAt(i) ) {
+                return a.charAt(i)-b.charAt(i);
+            }
+        }
+        return a.length()-b.length();
+    }
+
     public static void main(String[] args) {
         System.out.println(countSubFreq("Supercalifragilisticexpialidocious","li"));
         System.out.println(replaceSubstring("Supercalifragilisticexpialidocious","Super","superman"));
+        int res=lexcicographicalChecker("pae","pan");
+        if (res<0){
+            System.out.println("second string is bigger");
+        } else if (res == 0) {
+            System.out.println("both are the same");
+        }else {
+            System.out.println("first string is bigger");
+        }
     }
 }
