@@ -21,5 +21,6 @@ public class StringFrequency {
                 System.out.println(strings[k]+" == "+freq[k]);
             }
         }
+        System.out.println("This is how the strings repeat");
     }
 }
