@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/Stings/Stings.iml" filepath="$PROJECT_DIR$/Stings/Stings.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java course.iml" filepath="$PROJECT_DIR$/.idea/java course.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop/oop.iml" filepath="$PROJECT_DIR$/oop/oop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/others/others.iml" filepath="$PROJECT_DIR$/others/others.iml" />
       <module fileurl="file://$PROJECT_DIR$/recursion/recursion.iml" filepath="$PROJECT_DIR$/recursion/recursion.iml" />
     </modules>
   </component>

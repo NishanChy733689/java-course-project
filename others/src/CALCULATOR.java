@@ -1,4 +1,3 @@
-import java.util.Scanner;
 class calc{
     int sum;
     calc(int sum) {
