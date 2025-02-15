@@ -1,14 +1,16 @@
 import java.util.Scanner;
 
-public class Kps_algo {
-    public static void kmpSearch(String pat,String txt){
+public class StringOccurCounter_kps {
+    public static void kmpCounter(String pat,String txt){
         int j=0;
         int M=pat.length();
         int N=txt.length();
         int[] lps=new int[M];
 
-        ComputeLpsArr(pat,M,lps);
+        Kps_algo.ComputeLpsArr(pat,M,lps); // You need the Kps_Algo.java file to run this
+                                           // This method is imported from there
         int i=0;
+        int counter=0;
         while(N-i>=(M-j)){
             if (pat.charAt(j)==txt.charAt(i)){
                 i++;
@@ -16,6 +18,7 @@ public class Kps_algo {
             }
             if (j==M){
                 System.out.println("Found the pattern at the index :  "+(i-j));
+                counter++;
                 j=lps[j-1];
             } else if (i<N && pat.charAt(j)!=txt.charAt(i)) {
                 if (j !=0){
@@ -25,28 +28,10 @@ public class Kps_algo {
                 }
             }
         }
-    }
-    public static void ComputeLpsArr(String pat,int M,int[] lps){
-        int len=0;
-        int i=1;
-        lps[0]=0;
-        while(i<M){
-            if(pat.charAt(i)==pat.charAt(len)){
-                len++;
-                lps[i]=len;
-                i++;
-            }else{
-                if(len!=0){
-                    len=lps[len-1];
-                }else {
-                    lps[i]=len;
-                    i++;
-                }
-            }
-        }
+        System.out.println("The given pattern has repeated : "+counter+" times in the given string");
+
 
     }
-
     public static void main(String[] args) {
         Scanner scn=new Scanner(System.in);
 
@@ -56,7 +41,8 @@ public class Kps_algo {
         System.out.println("Enter the pattern to search for : ");
         String pat=scn.nextLine();
 
-        kmpSearch(pat,text);
+        kmpCounter(pat,text);
 
     }
 }
+
