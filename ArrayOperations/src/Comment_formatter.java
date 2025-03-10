@@ -36,5 +36,6 @@ public class Comment_formatter {
         for (int i=0;i<formatedComments.toArray().length;i++){
             System.out.println(formatedComments.get(i));
         }
+        System.out.println("The given format of the string is %d-%s ");
     }
 }
