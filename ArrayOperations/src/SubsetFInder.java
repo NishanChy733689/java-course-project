@@ -1,10 +1,11 @@
 import java.util.*;
 import java.util.List;
+
 public class SubsetFInder {
 
-    static Set<List<Integer>> output=new HashSet<>();
+    Set<List<Integer>> output=new HashSet<>();
 
-    public static List<List<Integer>> subsets(int[] arr){
+    public  List<List<Integer>> subsets(int[] arr){
         int n=arr.length;
 
         Arrays.sort(arr);
@@ -15,7 +16,7 @@ public class SubsetFInder {
 
         return answer;
     }
-    public static void help(int first, ArrayList<Integer> curr, int[] array){
+    public void help(int first, ArrayList<Integer> curr, int[] array){
         if (first==array.length){
 
                 output.add(new ArrayList<>(curr));
@@ -29,9 +30,9 @@ public class SubsetFInder {
 
     }
 
-    public static void main(String[] args) {
-        int[] nums={1,2,3,2,3,2};
-        List<List<Integer>> result= subsets(nums);
-        System.out.println(result);
-    }
+//    public static void main(String[] args) {
+//        int[] nums={1,2,3,2,3,2};
+//        List<List<Integer>> result= subsets(nums);
+//        System.out.println(result);
+//    }
 }
