@@ -1,3 +1,4 @@
+import javax.xml.transform.Result;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -29,6 +30,7 @@ public class dupRemover {
         for(int i=0;i<arr.length;i++){
             if(!is_dup(arr,arr[i])){
                 result[i]=arr[i];
+
                 res.add(arr[i]);
                 System.out.println(arr[i]);
             }

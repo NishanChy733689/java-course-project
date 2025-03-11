@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class SecondLargest {
     public static void main(String[] args) {
         //Define the array
-        int[] array={1,3,6,8,4,5,6};
+        int[] array={1,6,8,4,5,6};
         // Sort the array so the second large number is the second last element
         Arrays.sort(array);
 
