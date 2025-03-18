@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
+// Combinationer.java;
 
 public class Comment_formatter {
     public static ArrayList<String> format(ArrayList<String> raw){
@@ -37,5 +38,6 @@ public class Comment_formatter {
             System.out.println(formatedComments.get(i));
         }
         System.out.println("The given format of the string is %d-%s ");
+        Combinationer.main(new String[]{});
     }
 }
